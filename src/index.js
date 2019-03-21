@@ -62,9 +62,9 @@
 //
 // ReactDOM.render(<App />, document.getElementById('app'));
 
-let person = {
+const person = {
   name: 'Yoda',
-  designation: 'Jedi Master ',
+  designation: 'Jedi Master',
 };
 
 function trainJedi(jediWarrion) {

@@ -53,9 +53,8 @@ module.exports = {
 		"jsx-a11y/label-has-for": [2, {
 			"required": {
 				"every": ["id"]
-			}
+			},
 		}], // for nested label htmlFor error
-
-		'prettier/prettier': ['error'],
+		"prettier/prettier": ["error", { "singleQuote": true, "trailingComma": "all" }]
 	},
 };
